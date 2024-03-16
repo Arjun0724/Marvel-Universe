@@ -1,0 +1,51 @@
+body{
+    background: url("./picture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+    color: white;
+    background: rgb(0, 0, 0,0.3);
+    width:600px;
+    text-align: center;
+    margin: auto;
+}
+
+h3{
+    color: white;
+    font-size: xx-large;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0,0,0,0.5);
+    width: 1200px;;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.t{
+
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0,0,0,0.7);
+    width: 1200px;;
+    margin: auto;
+    margin-top: 20px;
+}
+
+img{
+    height:150px;
+    width: 150px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+td > img:hover {
+    opacity: 1;
+    width: 165px;
+    height: 165px;
+}
